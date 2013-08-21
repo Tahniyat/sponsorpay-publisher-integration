@@ -18,9 +18,9 @@ b. If we have no offers there we render a message like ‘No offers’
 - `rake test` to run test cases
 
 ###Description###
-**config/initializer/constants.rb:** Contains all global constants
-**app/sponsorpay/sponsorpay_handler.rb:** SponsorPay API client implementation
-**app/sponsorpayObjects/offer.rb:** SponsorPay Offer class
-**app/views/home:** HAML is used for HTML views
-**test/functional:** Contains functional test cases
+**config/initializer/constants.rb:** Contains all global constants  
+**app/sponsorpay/sponsorpay_handler.rb:** SponsorPay API client implementation  
+**app/sponsorpayObjects/offer.rb:** SponsorPay Offer class  
+**app/views/home:** HAML is used for HTML views  
+**test/functional:** Contains functional test cases  
 
