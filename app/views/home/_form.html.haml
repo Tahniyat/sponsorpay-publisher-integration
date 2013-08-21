@@ -1,0 +1,12 @@
+= form_for :query, url: '/offers'  do |f|
+  %p
+    = f.label :uid
+    = f.text_field :uid, value: 'player1'
+  %p
+    = f.label :pub0
+    = f.text_field :pub0, value: 'campaign2'
+  %p
+    = f.label :page
+    = f.text_field :page, value: '1'
+  %p
+    = f.submit "Check"

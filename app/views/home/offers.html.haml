@@ -1,0 +1,7 @@
+- if !@result[:error].empty?
+  =	render 'error'
+- else
+  - unless @result[:offers].empty?
+    = render partial: 'offer', collection: @result[:offers]
+  - else
+    .no_offer No Offers
